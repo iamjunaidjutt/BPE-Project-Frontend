@@ -27,7 +27,7 @@
         <div class="container">
             <a class="navbar-brand me-5" href="./home.html">
                 <div class="d-flex">
-                    <span class="myLink fw-bold fs-3 mx-2 mt-2">Miniso</span>
+                    <span class="myLink fw-bold fs-3 mt-2">Miniso</span>
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,28 +38,41 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
                     <li class="nav-item mx-3">
-                        <a class="myLink active" aria-current="page" href="./club.html">Daily Sales Entry</a>
+                        <a class="myLink active" aria-current="page" href="./dailySalesEntry.html">Daily Sales Entry</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="myLink" href="#">View Sales</a>
+                        <a class="myLink" href="./viewSales.html">View Sales</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="myLink" href="#">Discount System</a>
+                        <a class="myLink" href="./discountSystem.html">Discount System</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="container">
-        <div class="d-flex justify-content-center align-items-center w-100 vh-100">
-            <div class="text-center w-50 text-white">
-                <h1 class="fs-1 my-4">Welcome Back!</h1>
-                <p class="lead my-4">Cover is a one-page template for building simple and beautiful home pages.
-                    Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <a href="https://miniso.pk/" target="_blank" class="myBtn fs-4 shadow-sm">Learn more</a>
-            </div>
-        </div>
-        </div>
+    <main class="container nav-margin">
+        <section class="w-75 mx-auto">
+            <h1 class="text-white mt-5">Discount System</h1>
+            <form class="text-white my-4">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Discount Code</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Discount Code">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Invoice Bill</label>
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Invoice Bill">
+                </div>
+                <button type="submit" class="myBtn">Submit</button>
+            </form>
+        </section>
     </main>
 
 </body>
