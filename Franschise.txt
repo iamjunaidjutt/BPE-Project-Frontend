@@ -1,0 +1,48 @@
+Page Admin Page:
+Leads to other pages
+
+Page: Daily Sales Entry
+
+Takes input:
+Number of Customers
+Total Sales Revenue
+Total Products Sold
+Data
+
+Ouputs:
+Total Sales with GST
+Total Sales without GST
+
+Puts Into Databse:
+An object of type DailySale=
+NumOfCustomers, TotalSales, TotalSalesWoGST NumOFProducts, Date, AvgTransactionValue
+
+
+
+Page: View Sales
+
+Takes input:
+Start Date
+End Date
+Step (Day, Week, Year)
+
+Outputs:
+Graph
+
+Inputs: Budget
+
+
+
+Page: Discount System
+When pressed, it shows list of discount programs currently going on
+
+Takes input:
+Name
+Phone Number
+Discount Code
+Invoice Bill
+
+Outputs: 
+Discount code validity (yes or no)
+WhatsApp Group presence (if user is in whatsapp group or not)
+Invoice bill after discount
